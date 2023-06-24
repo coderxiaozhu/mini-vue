@@ -1,0 +1,41 @@
+Arguments: 
+  D:\nodejs\node.exe C:\Users\coderxiaozhu\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @rollup/plugin-comonjs @rollup/plugin-node-resolve @rollup/plugin-typescript tslib typescript
+
+PATH: 
+  D:\wmware\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\JDK\bin;D:\JDK\jre\bin;"D:\apache-tomcat-8.5.73\lib;";D:\apache-tomcat-8.5.73\bin;D:\nodejs\;D:\Git\Git\cmd;D:\sql server\110\DTS\Binn\;D:\sql server 2012\110\Tools\Binn\;D:\sql server\110\Tools\Binn\;D:\sql server 2012\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;D:\sql server 2012\110\DTS\Binn\;D:\IdeaFile\Maven\apache-maven-3.8.4\bin;D:\微信web开发者工具\dll;C:\Users\coderxiaozhu\AppData\Roaming\npm;D:\Android_Sdk\platform-tools;D:\Program Files\Nox\bin;D:\mongodb-win32-x86_64-windows-5.0.9\bin;D:\Anaconda;D:\Anaconda\Library\mingw-w64\bin;D:\Anaconda\Library\usr\bin;D:\Anaconda\Library\bin;D:\Anaconda\Scripts;C:\Users\coderxiaozhu\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\coderxiaozhu\AppData\Local\Programs\Python\Python311\;C:\Users\coderxiaozhu\AppData\Local\Microsoft\WindowsApps;D:\Bandizip\;C:\Users\coderxiaozhu\AppData\Roaming\npm;D:\nodejs\node_global;D:\Git\Git;D:\Microsoft VS Code\bin;D:\mysql\mysql-8.0.27-winx64;D:\mysql\mysql-8.0.27-winx64\bin;D:\IntelliJ IDEA 2021.2.3\bin;;D:\PyCharm 2022.2.1\bin;;D:\WebStorm 2022.2.3\bin;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@rollup%2fplugin-comonjs: Not found
+      at Request.params.callback [as _callback] (C:\Users\coderxiaozhu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\coderxiaozhu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Users\coderxiaozhu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Users\coderxiaozhu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "mini-vue",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
